@@ -48,4 +48,4 @@ z.pre <- outer(x.pre, y.mod, FUN='regeq', model=fit)
 surface3d(x.pre,y.mod,z.pre, color = c("green"))
 
 # Write to interactive PDF
-writeASY(title = "interactive")
+writeASY(title = "3D_scatter_plot")
